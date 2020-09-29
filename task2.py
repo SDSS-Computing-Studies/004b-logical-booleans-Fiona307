@@ -18,3 +18,13 @@ Example:
 Enter a number: 8
 8 is only a perfect cube.
 """
+import math
+
+number = input("Enter a number")
+x = float(number)
+if (x**float(1.0/3)) % 1 == 0 and math.sqrt(x) % 1 == 0:
+    print(number + " is both a perfect square and a perfect cube.")
+elif math.sqrt(x) % 1 == 0:
+    print(number + " is only a perfect square.")
+elif (x**float(1.0/3)) % 1 == 0:
+    print(number + " is only a perfect cube.")
