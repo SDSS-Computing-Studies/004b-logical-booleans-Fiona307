@@ -19,3 +19,10 @@ Enter a number: 48
 """
 
 #! python3
+
+number = input("Enter a number")
+x = float(number)
+if x % 6 == 0 and x % 8 != 0:
+    print(number + " is frue")
+else:
+    print(number + " is not frue")
