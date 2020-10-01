@@ -25,8 +25,8 @@
       "setup": "",
       "run": "python3 task2.py",
       "input": "729",
-      "output": "729 is both a perfect square and a perfect cube.",
-      "comparison": "included",
+      "output": "729[\\.\\d]* is both a perfect square and a perfect cube.",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -35,9 +35,9 @@
       "setup": "",
       "run": "python3 task2.py",
       "input": "36",
-      "output": "36 is only a perfect square.",
-      "comparison": "included",
-      "timeout": 10,
+      "output": "36[\\.\\d]* is only a perfect square.",
+      "comparison": "regex",
+      "timeout": 1,
       "points": 1
     },
     {
@@ -55,8 +55,8 @@
       "setup": "",
       "run": "python3 task3.py",
       "input": "2.0",
-      "output": "2.0 is a positive integer",
-      "comparison": "included",
+      "output": "2[\\.\\d]* is a positive integer",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -85,8 +85,8 @@
       "setup": "",
       "run": "python3 problem1.py",
       "input": "36",
-      "output": "36 is frue",
-      "comparison": "included",
+      "output": "36[\\.\\d]* is frue",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -95,8 +95,8 @@
       "setup": "",
       "run": "python3 problem1.py",
       "input": "16",
-      "output": "16 is not frue",
-      "comparison": "included",
+      "output": "16[\\.\\d]* is not frue",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -105,8 +105,8 @@
       "setup": "",
       "run": "python3 problem2.py",
       "input": "10\r\n2",
-      "output": "2 is a factor of 10",
-      "comparison": "included",
+      "output": "2[\\.\\d]* is a factor of 10[\\.\\d]*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -115,8 +115,8 @@
       "setup": "",
       "run": "python3 problem2.py",
       "input": "4\r\n25",
-      "output": "4 is not a factor of 25",
-      "comparison": "included",
+      "output": "4[\\.\\d]* is not a factor of 25[\\.\\d]*",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -125,8 +125,8 @@
       "setup": "",
       "run": "python3 problem3.py",
       "input": "6\r\n10\r\n8",
-      "output": "6,8,10 form a Pythagorean triple",
-      "comparison": "included",
+      "output": "6[\\.\\d]*,8[\\.\\d]*,10[\\.\\d]* form a Pythagorean triple",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -135,8 +135,8 @@
       "setup": "",
       "run": "python3 problem3.py",
       "input": "3\r\n4\r\n5",
-      "output": "3,4,5 form a Pythagorean triple",
-      "comparison": "included",
+      "output": "3[\\.\\d]*,4[\\.\\d]*,5[\\.\\d]* form a Pythagorean triple",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     }
