@@ -29,11 +29,11 @@ b = input("Enter another number")
 
 if float(a) % float(b) == 0 or float(b) % float(a) == 0:
     if float(a) >= float(b):
-        print(b + " is a factor of " + a)
+        print(b.strip() + " is a factor of " + a)
     else:
         print(a + " is a factor of " + b)
 else:
     if float(a) >= float(b):
-        print(b + " is not a factor of " + a)
+        print(b.strip() + " is not a factor of " + a)
     else:
-        print(a + " is not a factor of " + b)
+        print(a.strip() + " is not a factor of " + b)
