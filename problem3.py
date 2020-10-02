@@ -37,33 +37,33 @@ z = float(c)
 if x <= y and x <= z:
     if y <= z:
         if x**2 + y**2 == z**2:
-            print(a+ "," + b + "," + c + " form a Pythagorean triple")
+            print(a.strip()+ "," + b + "," + c.strip() + " form a Pythagorean triple")
         else:
-            print(a+ "," + b + "," + c + " do not form a Pythagorean triple")
+            print(a.strip()+ "," + b + "," + c.strip() + " do not form a Pythagorean triple")
     else:
         if x**2 + z**2 == y**2:
-            print(a+ "," + c + "," + b + " form a Pythagorean triple")
+            print(a.strip()+ "," + c + "," + b.strip() + " form a Pythagorean triple")
         else:
-            print(a+ "," + c + "," + b + " do not form a Pythagorean triple")
+            print(a.strip()+ "," + c + "," + b.strip() + " do not form a Pythagorean triple")
 elif y <= x and y <= z:
     if x <= z:
         if x**2 + y**2 == z**2:
-            print(b+ "," + a + "," + c + " form a Pythagorean triple")
+            print(b.strip()+ "," + a + "," + c.strip() + " form a Pythagorean triple")
         else:
-            print(b+ "," + a + "," + c + " do not form a Pythagorean triple")
+            print(b.strip()+ "," + a + "," + c.strip() + " do not form a Pythagorean triple")
     else:
         if y**2 + z**2 == x**2:
-            print(b+ "," + c + "," + a + " form a Pythagorean triple")
+            print(b.strip()+ "," + c + "," + a.strip() + " form a Pythagorean triple")
         else:
-            print(b+ "," + c + "," + a + " do not form a Pythagorean triple")
+            print(b.strip()+ "," + c + "," + a.strip() + " do not form a Pythagorean triple")
 else:
     if x <= y:
         if x**2 + z**2 == y**2:
-            print(c+ "," + a + "," + b + " form a Pythagorean triple")
+            print(c.strip()+ "," + a + "," + b.strip() + " form a Pythagorean triple")
         else:
-            print(c+ "," + a + "," + b + " do not form a Pythagorean triple")
+            print(c.strip()+ "," + a + "," + b.strip() + " do not form a Pythagorean triple")
     else:
         if y**2 + z**2 == x**2:
-            print(c+ "," + b + "," + a + " form a Pythagorean triple")
+            print(c.strip()+ "," + b + "," + a.strip() + " form a Pythagorean triple")
         else:
-            print(c+ "," + b + "," + a + " do not form a Pythagorean triple")
+            print(c.strip()+ "," + b + "," + a.strip() + " do not form a Pythagorean triple")
