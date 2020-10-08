@@ -45,7 +45,7 @@
       "setup": "",
       "run": "python3 task3.py",
       "input": "-2.01",
-      "output": "-2.01[.\\r\\n\\d]* is not .*integer",
+      "output": "-2.01[\\r\\n\\d.]* is not .*integer",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
