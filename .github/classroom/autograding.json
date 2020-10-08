@@ -45,8 +45,8 @@
       "setup": "",
       "run": "python3 task3.py",
       "input": "-2.01",
-      "output": "-2.01 is not a positive integer",
-      "comparison": "included",
+      "output": "-2.01 is not .*integer",
+      "comparison": "regex",
       "timeout": 1,
       "points": 1
     },
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "python3 task3.py",
       "input": "2.0",
-      "output": "2[\\.\\d]* is a positive integer",
+      "output": "2[\\.\\d]* is a.*integer",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
